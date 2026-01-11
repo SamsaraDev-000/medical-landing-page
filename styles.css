@@ -352,11 +352,7 @@ p {
 }
 
 @media (max-width: 768px) {
-    .nav-list {
-        display: none;
-    .nav{
-        display: none;
-    }
+
         /* For simplicity in this no-JS requirement, we might need a simple solution or just accept vertical stack if checked manually. But typical responsive menu usually needs JS or Checkbox hack. 
                      Since requirement says NO JS, I will stack the menu or just keep links simple. 
                      Let's make them stack naturally or hide/show. 
@@ -375,7 +371,7 @@ p {
     }
 
     .nav-list {
-        flex-direction: column;
+        flex-direction: row;
         gap: 1rem;
         text-align: center;
     }
@@ -395,3 +391,4 @@ p {
     }
 
 }
+
